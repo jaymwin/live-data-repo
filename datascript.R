@@ -4,4 +4,4 @@ dat <- read_csv(here('data/starting-data.csv'))
 dat
 
 dat %>%
-  summarise(total_DS = sum(DS))
+  summarise(total_DO = sum(DO))
